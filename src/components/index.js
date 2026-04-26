@@ -12,6 +12,7 @@ import Blog from "./Blog";
 import Leadership from "./Leadership";
 import Certificates from "./Certificates";
 import Achievements from "./Achievements";
+import SocialLinks from "./SocialLinks";
 
 
 export {
@@ -31,5 +32,6 @@ export {
   Blog,
   Leadership,
   Certificates,
-  Achievements
+  Achievements,
+  SocialLinks
 };
