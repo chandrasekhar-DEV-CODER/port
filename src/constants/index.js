@@ -333,5 +333,65 @@ const achievements = [
     date: "2026"
   }
 ];
+// Add this new constant after achievements
+const socialLinks = [
+  {
+    _id: "1",
+    platform: "LeetCode",
+    url: "https://leetcode.com/your-username",
+    icon: "💻",
+    color: "bg-yellow-500/20",
+  },
+  {
+    _id: "2",
+    platform: "CodeForces",
+    url: "https://codeforces.com/profile/your-username",
+    icon: "⚡",
+    color: "bg-red-500/20",
+  },
+  {
+    _id: "3",
+    platform: "CodeChef",
+    url: "https://www.codechef.com/users/your-username",
+    icon: "🍳",
+    color: "bg-orange-500/20",
+  },
+  {
+    _id: "4",
+    platform: "GeeksforGeeks",
+    url: "https://auth.geeksforgeeks.org/user/your-username",
+    icon: "🤓",
+    color: "bg-green-500/20",
+  },
+  {
+    _id: "5",
+    platform: "GitHub",
+    url: "https://github.com/your-username",
+    icon: "🐙",
+    color: "bg-gray-500/20",
+  },
+  {
+    _id: "6",
+    platform: "LinkedIn",
+    url: "https://linkedin.com/in/your-username",
+    icon: "💼",
+    color: "bg-blue-500/20",
+  },
+  {
+    _id: "7",
+    platform: "Twitter/X",
+    url: "https://twitter.com/your-username",
+    icon: "𝕏",
+    color: "bg-black/20",
+  },
+  {
+    _id: "8",
+    platform: "HackerRank",
+    url: "https://www.hackerrank.com/your-username",
+    icon: "🏆",
+    color: "bg-purple-500/20",
+  },
+];
 
-export { services, technologies, experiences, testimonials, projects, blogs, leadership, certificates, achievements };
+// Update the export statement to include socialLinks
+export { services, technologies, experiences, testimonials, projects, blogs, leadership, certificates, achievements, socialLinks };
