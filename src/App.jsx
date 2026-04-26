@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Blog, Leadership, Certificates, Achievements } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Blog, Leadership, Certificates, Achievements, SocialLinks } from "./components";
 import AdminLogin from "./components/AdminLogin";
 import AdminDashboard from "./components/AdminDashboard";
 import Preloader from "./components/Preloader";
@@ -19,6 +19,7 @@ const Portfolio = () => (
     <Leadership />
     <Certificates />
     <Achievements />
+    <SocialLinks />
     <Feedbacks />
     <div className='relative z-0'>
       <Contact />
